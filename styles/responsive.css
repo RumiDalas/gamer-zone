@@ -1,5 +1,15 @@
 /* responsive for mobile */
 @media (max-width: 414px) {
+   .nav-container , .nav-items-container, .nav-items{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    header{
+        margin-bottom: 10px;
+    }
+
     .play-item-container{
         grid-template-columns: 1fr;
           
