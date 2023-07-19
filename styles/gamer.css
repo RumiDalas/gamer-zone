@@ -91,7 +91,8 @@ header{
 
 .banner-container {
     display: flex;
-    margin: 100px 200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 
 }
 
