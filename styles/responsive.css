@@ -1,11 +1,15 @@
 /* responsive for mobile */
-@media screen and (max-width:425px) {
-    /* footer responsive */
-   
-}
-
-/* responsive for tablet */
-@media screen and (max-width:768px) {
-   
+@media (max-width: 414px) {
+    .grid-container {
+      grid-template-columns: 1fr 1fr 1fr; 
     
+  }
+}
+/* responsive for tablet */
+
+@media screen and (max-width:768px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+      
+    }
 }
