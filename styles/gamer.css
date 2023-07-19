@@ -10,7 +10,7 @@
 }
 
 .btn-primary {
-    border-radius: 5px;
+    border-radius: 50px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     border: 0;
     font-size: 20px;
@@ -20,7 +20,7 @@
 }
 
 .btn-secondary {
-    border-radius: 5px;
+    border-radius: 50px;
     background: #4EC5F7;
     border: 0;
     font-size: 20px;
@@ -86,7 +86,21 @@ header{
 
 }
 
-/* nav section end */
+/* banner section */
+/* banner container start */
+
+.banner-container {
+    display: flex;
+    margin: 100px 200px;
+
+}
+
+.banner-img {
+    width: 10px;
+    margin-left: 100px;
+   
+}
+
 /* online games */
 .card-container{
     display: flex;
