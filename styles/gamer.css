@@ -87,12 +87,20 @@ header{
 }
 
 /* nav section end */
-
-/* play stsrt */
-.play-container{
-
+/* online games */
+.card-container{
+    display: flex;
+    gap: 4px;
     
 }
+.text-container{
+    text-align: center;
+}
+.game-card img:hover{
+    border: 2px solid #FF42A5;
+}
+
+/* play stsrt */
 .play-item-container{
     display: grid;
     grid-template-columns: 1fr 1fr ; 
