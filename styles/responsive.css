@@ -1,5 +1,10 @@
 /* responsive for mobile */
 @media (max-width: 414px) {
+    .play-item-container{
+        grid-template-columns: 1fr;
+          
+    }
+    
     .grid-container {
       grid-template-columns: 1fr 1fr 1fr; 
     

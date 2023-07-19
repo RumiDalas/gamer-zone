@@ -88,18 +88,50 @@ header{
 
 /* nav section end */
 
-/* career section stsrt */
+/* play stsrt */
+.play-container{
+   
+    background-color: #4EC5F7;
+    width: 100%;
+    
+}
+.play-item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+      
+}
+   
+.play-des{
+    align-items: end;
+    text-align: end;
+}
 
 
+.play-pic img{
+    margin-top: 10px;  
+}
 
-/* career section end */
+.play-pic{
+    position: relative;
+}
+
+.img-two{
+    position: absolute;
+    bottom: 10px;
+    left: -30px;
+}
+/* play end */
+
+
 /* action game part */
 
 .action-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     gap: 6px; 
-    
     padding: 20px;
     height: 200px;
    
@@ -132,6 +164,7 @@ header{
 /* footer start */
 footer{
     background-color:  #0B0223;
+    width: 100%;
     
 }
 .footer-container{
