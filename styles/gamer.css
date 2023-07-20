@@ -43,44 +43,53 @@
 }
 
 /* nav css */
-header{
-    height: 60px;
-   
-}
-.nav-container{
-    margin-left: 40px;
-    margin-right: 40px;
-    width: 90%;
+
+.nav-container {
+    min-height: 60px;
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    max-width: 1150px;
+    margin: 0 auto;
+
 }
 
-.nav-logo-container{ 
+.logo-container {
+    display: flex;
     width: 50%;
-    display: flex; 
-    align-items: center;
-    
 }
 
-.nav-logo-container img{
-    height: 45px;
+.logo-container img {
+    width: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+
+}
+
+.logo-container p {
+    font-size: 30px;
+   
 }
 
 .nav-items-container {
     width: 50%;
-    
-}
-.nav-items{
     display: flex;
-    justify-content: end;
-    gap: 16px;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
- a {
+.nav-items-container a {
     text-decoration: none;
-    color: #474747;
+    font-size: 20px;
+   
+}
+
+.nav-items-container .login-btn {
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
 }
 
 .logo-title-color {
@@ -92,7 +101,9 @@ header{
     font-style: normal;
     font-weight: 700;
 
-}
+} 
+
+
 
 /* banner section */
 
